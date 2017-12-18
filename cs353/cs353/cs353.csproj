@@ -87,13 +87,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LoginProfile.aspx" />
     <Content Include="RecipePage.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="resultStyle.css" />
     <Content Include="search.aspx" />
+    <Content Include="style_login.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoginProfile.aspx.cs">
+      <DependentUpon>LoginProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginProfile.aspx.designer.cs">
+      <DependentUpon>LoginProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MysqlDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecipePage.aspx.cs">

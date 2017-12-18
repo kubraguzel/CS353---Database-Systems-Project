@@ -1,0 +1,132 @@
+﻿body {
+    background-color: #d5d5d5;
+}
+* {
+    margin: 30px;
+    padding: 0;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+   
+}
+#wrapper{
+    width: 960px;
+    height: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header {
+    margin: 0px;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-color: #1c1c1c;
+}
+    header logo {
+        float: left;
+        height: 45px;
+        width: 89px;
+        border-right: 1px solid #ff0000;
+        background-color: red;
+        color: #ffa800;
+    }
+.btn {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+.supporting {
+    float: none;
+    width: 100%;
+    height: 300px;
+}
+
+    .supporting h2 {
+        color: #ffa800;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+.supporting {
+    padding: 0px 0px 80px;
+    text-align: center;
+    background-color: #fff;
+}
+.col {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 75px;
+    height: 660px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.30);
+    margin-bottom: 30px;
+   
+}
+.col2 {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 75px;
+    height: 660px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.30);
+    margin-bottom: 30px;
+}
+button btn:hover {
+    background: #ffa800;
+    color: #000;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+h1, h2, a, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+.link {
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    background-size: auto 0px;
+    color: #fff;
+    font-size: 18px;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+    .link a {
+        border: 1px solid rgba(0, 0, 0, 0);
+        margin: 0px 0px 50px 10px;
+        float: right;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .link a:hover {
+            background: #ffa800;
+            color: #000;
+        }
+    .link h1 {
+        float: left;
+        color: #ffa800;
+        margin: 24px 0px 24px 10px;
+        font-size: 18px;
+    }
+.col h2{
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.col2 h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
